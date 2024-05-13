@@ -1,0 +1,418 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*CSS RESET END*/
+/*header*/
+
+
+header {
+    height: 10vh;
+    background-color: rgb(26, 34, 78);
+    display: flex;
+    width: 100%;
+    padding: 0 100px;
+}
+
+header h3 {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+}
+
+header ul {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+header ul li a:hover {
+    color: rgb(28, 188, 156);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*end of header*/
+body {
+    overflow-x: hidden;
+}
+
+/*banner*/
+.hero {
+    height: 90vh;
+    background-color: rgb(28, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.hero #banner-img {
+    margin-top: 100px;
+}
+
+.hero-inner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: bold;
+}
+
+.hero-inner img {
+    width: 20%;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* end of banner*/
+
+/*start of portfolio*/
+#portfolio {
+    height: 100vh;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+#portfolio img {
+    width: 20%;
+}
+
+#content {
+    display: flex;
+    width: 60%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#content #content-inner {
+    width: calc(100/3);
+    padding: 0 5px;
+}
+
+#content #content-inner img {
+    width: 100%;
+    border: 1px;
+    border-radius: 10px;
+}
+
+/*end of portfolio*/
+
+
+
+
+/*about*/
+#about {
+    height: 100vh;
+    background-color: rgb(28, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#about h2 {
+    font-size: 30px;
+    padding-top: 100px;
+    font-family: bold;
+}
+
+#about #one {
+    margin-top: 10px;
+    width: 20%;
+}
+
+#about .text {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about .text .text-inner {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#about a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+
+    border-radius: 5px;
+}
+
+/*start of contact*/
+#contact {
+    height: 80vh;
+    width: auto;
+    text-align: center;
+}
+
+
+#contact img {
+    margin-top: 10px;
+    width: 20%;
+}
+
+#contact #onee {
+    margin-top: 20px;
+    width: 20%
+}
+
+#contact h2 {
+    font-size: 30px;
+    padding-top: 100px;
+    color: rgb(26, 34, 78);
+    text-align: center;
+    font-family: bold;
+}
+
+#contact form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact form input {
+    width: 100%;
+    padding: 25px 0;
+    border: none;
+    border-bottom: .2px solid rgba(0, 0, 0, .225);
+    font-size: 18px;
+}
+
+#contact>form>input>#msg {
+    padding-bottom: 55px !important;
+}
+
+#contact form button {
+    background-color: rgb(28, 188, 156);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    float: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+*:focus {
+    outline: none;
+}
+
+/*/* end of contact**/
+
+/*footer*/
+.footer{
+  
+    margin-top: 150px;
+    height: 38vh;
+    background-color: rgb(60, 70, 124);
+    display: flex;
+    width: 100%;
+
+}
+
+.footer-inner{
+    width:30%;
+    text-align: center;
+    color:white;
+    padding-top: 70px;
+
+}
+
+.footer-inner h3{
+    font-family: bold;
+    padding-bottom: 20px;
+}
+
+.footer-inner p{
+    font-family: regular;
+    font-size: 16px;
+}
+
+.footer-inner-1{
+    width:30%;
+    text-align: center;
+    color:white;
+    padding-top: 70px;
+    margin-left: 150px;
+}
+
+.footer-inner-1 h3{
+    font-family: bold;
+    padding-bottom: 20px;
+}
+
+.footer-inner-1 img{
+    width: 7%;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+
+}
+
+.footer-inner-2{
+    width: 40%;
+    text-align: center;
+    color:white;
+    padding-top: 70px;
+}
+
+.footer-inner-2 h3{
+    font-family: bold;
+    padding-bottom: 20px;
+}
+
+.footer-inner-2 p{
+    font-family: regular;
+    font-size: 16px;
+    
+}
+
+.footer-inner-2 p span{
+    color: rgb(30, 187, 166);
+}
+
+
+.footer2{
+    height:10vh;
+    text-align: center;
+    background-color: rgb(0, 0, 27);
+    color: white;
+}
+
+.footer2 p{
+    padding-top: 20px;
+    font-family: regular;
+    font-size: 14px;
+}
+
+/* .footer-inner h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 20%;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+    
+}
+
+.footer-inner p {
+    padding-left: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: regular;
+    
+    
+
+
+}
+
+.footer-inner-1 h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+    padding-left: 160px;
+    width: 90%;
+
+
+
+}
+
+.footer-inner-1 img {
+    width: 25px;
+    margin-left: 2px;
+    border-radius: 30px;
+    border: 2px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    
+    
+    
+    
+    
+    
+
+}
+
+.footer-inner-1 {
+    text-align: center;
+    
+
+
+
+}
+
+#footer-inner-2 p{
+    font-size: 18px;
+    padding-left: 40%;
+    color: rgb(255, 255, 255);
+     padding-right:40% ;
+     font-family: regular;
+     width: 40%;
+     margin-left: 100px;
+     padding-left: 120px;
+
+}
+
+.footer-inner-1 {
+    padding-left: 170px;  
+}
+
+
+#footer-inner-2 h3 {
+    margin-top: 60px;
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    padding-left: 80%;
+    color: rgb(255, 255, 255);
+    padding-right: 20%;
+    font-family: bold;
+    padding-left: 150px;
+    margin-left: 80px;
+    
+    
+
+}
+
+#footer-inner-2 span {
+    color: rgb(30, 187, 166);
+    
+}
+
+
+.footer2 p {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2cap 0;
+    color: rgb(255, 255, 255);
+    font-size:10px ;
+    font-family: regular;
+    margin-top: 0px;
+    
+} */
+
+/*end of footer*/
